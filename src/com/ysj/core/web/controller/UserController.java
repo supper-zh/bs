@@ -31,8 +31,8 @@ public class UserController {
 	 */
 	@RequestMapping(value = "/login.action", method = RequestMethod.POST)
 	public String login(String usercode, String password, String role, Model model, HttpSession session) {
-		if(role.equals("学生")) {
 
+		if(role.equals("学生")) {
 			Student student = studentService.findStudent(usercode, password);
 			if(student!=null) {
 				User user = new User();

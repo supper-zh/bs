@@ -44,14 +44,12 @@ public class CommentsController {
 	@RequestMapping("/comments/getcommentsById.action")
 	@ResponseBody
 	public Comments getcommentsById(Long fId) {
-		
 		try {
 			Comments comments =  commentsServer.getcomments(fId);
 			return comments;
 		}catch(Exception e) {
 			return null;
 		}
-
 	}
 	
 	

@@ -15,7 +15,10 @@
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 <title>大学生毕业设计管理系统</title>
 <link rel="icon" href="favicon.ico" type="image/ico">
-
+<meta name="keywords" content="LightYear,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description"
+	content="LightYear是一个基于Bootstrap v3.3.7的后台管理系统的HTML模板。">
+<meta name="author" content="yinqi">
 <link href="${pageContext.request.contextPath}/css/bootstrap.min.css"
 	rel="stylesheet">
 <link
@@ -30,12 +33,12 @@
 		<div class="lyear-layout-container">
 			<!--左侧导航-->
 			<aside class="lyear-layout-sidebar">
+      
 
-
-				<div id="logo" style="height: 55px">
-					<p></p>
-					<h4 align="center">大学生毕业设计管理系统</h4>
-				</div>
+      <div id="logo" style="height:55px">
+      <p></p>
+          <h3 align="center">毕业设计管理系统</h2>
+      </div>
       <div class="lyear-layout-sidebar-scroll"> 
         
         <nav class="sidebar-main">
@@ -178,7 +181,7 @@
 												<ul class="pagination">
 
 													<li><a
-														href="javascript:jumpPage(1)">首页</a></li>
+														href=""javascript:jumpPage(1)">首页</a></li>
 
 													<!--上一页-->
 													<li><c:if test="${pageInfo.hasPreviousPage}">
@@ -221,13 +224,12 @@
 						</div>
 					</div>
 				</div>
-			</div>
 
+			</div>
 			
 			</main>
 			<!--End 页面主要内容-->
-		</div>
-	</div>
+
 
 	<script type="text/javascript"
 		src="${pageContext.request.contextPath }/js/jquery.min.js"></script>

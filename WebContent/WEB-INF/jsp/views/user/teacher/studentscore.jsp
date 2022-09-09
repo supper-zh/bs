@@ -35,10 +35,10 @@
 			<aside class="lyear-layout-sidebar">
 
 
-				<div id="logo" style="height: 55px">
-					<p></p>
-					<h4 align="center">大学生毕业设计管理系统</h4>
-				</div>
+				<div id="logo" style="height:55px">
+      <p></p>
+          <h3 align="center">毕业设计管理系统</h2>
+      </div>
       <div class="lyear-layout-sidebar-scroll"> 
         
         <nav class="sidebar-main">
